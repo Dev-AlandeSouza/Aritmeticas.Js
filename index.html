@@ -3,10 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <script src="index.js" defer></script>
-    <title></title>
+    <title>Operações Aritméticas</title>
 </head>
 <body>
-    <h1>Estatística na Programação</h1>
+    <section class="main">
+        <header id="header">
+            <h1>Calculo de Operações Aritméticas</h1>
+            <p id="observation">
+                Deve-se preencher os números separados <br>Ex: 3 4 5 6<br>Obs: Para utilizar o cálculo ponderado devemos inserir o número e depois seu peso.<br>Ex: "3 3.5" <br>Número 3 e peso 3.5</p>
+        </header>
+        <div class="operation-options">
+            <div class="operation">
+                <h3>Simples</h3>
+                <div class="controlInputs">
+                    <input type="text" id="operationSimpleInput" placeholder=" Digite a lista">
+                    <button id="operationSimpleSubmit">Calcular</button>
+                </div>
+            </div>
+            
+            <div class="operation">
+                <h3>Ponderada</h3>
+                <div class="controlInputs">
+                    <input type="text" id="operationWeightedInput" placeholder=" Digite a lista">
+                    <button id="operationWeightedSubmit">Calcular</button>
+                </div>
+            </div>
+            
+            <div class="operation">
+                <h3>Mediana</h3>
+                <div class="controlInputs">
+                    <input type="text" id="operationMedianInput" placeholder=" Digite a lista">
+                    <button id="operationMedianSubmit">Calcular</button>
+                </div>
+            </div>
+            
+            <div class="operation">
+                <h3>Moda</h3>
+                <div class="controlInputs">
+                    <input type="text" id="operationModaInput" placeholder=" Digite a lista">
+                    <button id="operationModaSubmit">Calcular</button>
+                </div>
+            </div>
+        </div>
+        <div id="resultID">
+            <h4>Resultado</h4>
+            <span id="result"></span>
+        </div>
+    </section>
 </body>
 </html>
