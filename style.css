@@ -45,6 +45,7 @@ body {
   background-color: #ffffffc5;
   cursor: text;
   display: flex;
+  padding-left: 20px;
 }
 
 .controlInputs {
@@ -246,7 +247,11 @@ h1 {
   }
 
   #result{
+
     width: 300px;
+    font-size: small;
+    text-align: center;
+    padding-left: 20px;
   }
 }
 
