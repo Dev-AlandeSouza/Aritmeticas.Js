@@ -21,7 +21,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3em 0;
+  padding: 1em 0; /* Reduzindo o padding para 1em no topo e na parte inferior, 0 nas laterais */
   border-radius: 1.5em;
   border: 2px solid black;
   background-color: rgba(255, 255, 255, 0.8);
